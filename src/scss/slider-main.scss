@@ -1,0 +1,236 @@
+    $grey:#7E7E82;
+    $wl: #D9FFF5;
+    $bac: #FFFFFF;
+    $pinks: #ff3e79;
+    $bla: #1B1C21;
+    $w-b: #41F6D7;
+    $ver: #EAEAEA;
+    $hen: #B5B6BC;
+    $irt: #41f6d7;
+    $two: #F8F8F8;
+    .slider-main {
+        height: 207px;
+    }
+    
+    .slider-main__heading-block {
+        margin-bottom: 24px;
+        background: linear-gradient(90deg, $two 1.39%, $bac 100%);
+    }
+    
+    .slider-main__heading {
+        font-family: 'Heebo', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        text-transform: uppercase;
+        color: $grey;
+        padding: 16px;
+    }
+    
+    .swiper-container {
+        position: relative;
+        height: 120px;
+        margin-left: -55px;
+    }
+    
+    .slider-main__brand {
+        display: flex;
+    }
+    
+    .swiper-slide.slider-main__brand-section {
+        height: 72px;
+        width: 224px;
+        margin-left: 24px;
+        background-color: $bac;
+        position: relative;
+        display: flex;
+        flex-shrink: 1;
+        border-radius: 6px;
+        margin-top: -15px;
+    }
+    
+    .slider-main__img {
+        margin: 20px 116px 20px 16px;
+    }
+    
+    .slider-main__button {
+        padding: 20px;
+        margin-left: -67px;
+        border: none;
+        margin-top: 17px;
+        background: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='38' height='38' rx='19' stroke='%23FF3E79' stroke-width='2'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M21.5 20L17.7071 16.2071C17.3166 15.8166 17.3166 15.1834 17.7071 14.7929L17.7929 14.7071C18.1834 14.3166 18.8166 14.3166 19.2071 14.7071L23.7929 19.2929C24.1834 19.6834 24.1834 20.3166 23.7929 20.7071L19.2071 25.2929C18.8166 25.6834 18.1834 25.6834 17.7929 25.2929L17.7071 25.2071C17.3166 24.8166 17.3166 24.1834 17.7071 23.7929L21.5 20Z' fill='%23FF3E79'/%3E%3C/svg%3E ") center no-repeat;
+    }
+    
+    .slider-main__img-apple {
+        margin: 12px 182px 20px 16px;
+    }
+    
+    .slider-main__img-samsung {
+        margin: 20px 110px 20px 16px;
+    }
+    
+    .slider-main__img-bosch {
+        margin: 20px 96px 20px 16px;
+    }
+    
+    .slider-main__img-view {
+        margin: 20px 98px 20px 16px;
+    }
+    
+    .slider-main__img-hp {
+        margin: 10px 173px 20px 16px;
+    }
+    
+    .slider-main__img-acer {
+        margin: 21px 131px 20px 16px;
+    }
+    
+    .slider-main__img-sony {
+        margin: 21px 99px 20px 16px;
+    }
+    
+    .slider-main__button-read-more.button {
+        display: none;
+    }
+    
+    #logj {
+        display: flex;
+    }
+    
+    @media (min-width: 768px) {
+        .slider-main {
+            height: 100%;
+            margin-top: 100px;
+        }
+        .swiper-container {
+            height: 100%;
+            width: 768px;
+        }
+        .swiper-wrapper.slider-main__brand {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 35px;
+        }
+        .swiper-slide.slider-main__brand-section {
+            height: 72px;
+            width: 224px !important;
+            margin-left: 24px;
+            background-color: $bac;
+            position: relative;
+            display: flex;
+            flex-shrink: 1;
+            margin-bottom: 29px;
+        }
+        .slider-main__button-read-mor.button.but {
+            font-family: 'Heebo', sans-serif;
+            padding-left: 18px;
+            padding-top: -29px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            border: none;
+            letter-spacing: -0.2px;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 8 11' width='8' height='11' class='aticle__text__button__svg'%3E%3Cpath clip-rule='evenodd' fill='%2341f6d7' fill-rule='evenodd' d='M 6.50008 0.500076 L 4.00008 3.00008 L 1.50008 0.500076 C 1.22393 0.223933 0.776218 0.223933 0.500076 0.500076 C 0.223933 0.776218 0.223933 1.22393 0.500075 1.50008 L 3.29297 4.29297 C 3.68349 4.68349 4.31666 4.68349 4.70718 4.29297 L 7.50008 1.50008 C 7.77622 1.22393 7.77622 0.776218 7.50008 0.500076 C 7.22393 0.223933 6.77622 0.223933 6.50008 0.500076 Z M 6.50008 6.50008 L 4.00008 9.00008 L 1.50008 6.50008 C 1.22393 6.22393 0.776218 6.22393 0.500076 6.50008 C 0.223933 6.77622 0.223933 7.22393 0.500075 7.50008 L 3.29297 10.293 C 3.68349 10.6835 4.31666 10.6835 4.70718 10.293 L 7.50008 7.50008 C 7.77622 7.22393 7.77622 6.77622 7.50008 6.50008 C 7.22393 6.22393 6.77622 6.22393 6.50008 6.50008 Z' /%3E%3Cpath xmlns='http://www.w3.org/2000/svg' clip-rule='evenodd' fill='%2341f6d7' fill-rule='evenodd' d='M 6.50008 0.500076 L 4.00008 3.00008 L 1.50008 0.500076 C 1.22393 0.223933 0.776218 0.223933 0.500076 0.500076 C 0.223933 0.776218 0.223933 1.22393 0.500075 1.50008 L 3.29297 4.29297 C 3.68349 4.68349 4.31666 4.68349 4.70718 4.29297 L 7.50008 1.50008 C 7.77622 1.22393 7.77622 0.776218 7.50008 0.500076 C 7.22393 0.223933 6.77622 0.223933 6.50008 0.500076 Z M 6.50008 6.50008 L 4.00008 9.00008 L 1.50008 6.50008 C 1.22393 6.22393 0.776218 6.22393 0.500076 6.50008 C 0.223933 6.77622 0.223933 7.22393 0.500075 7.50008 L 3.29297 10.293 C 3.68349 10.6835 4.31666 10.6835 4.70718 10.293 L 7.50008 7.50008 C 7.77622 7.22393 7.77622 6.77622 7.50008 6.50008 C 7.22393 6.22393 6.77622 6.22393 6.50008 6.50008 Z' /%3E%3C/svg%3E") no-repeat -1px;
+            color: $bla;
+            margin-left: 73px;
+            position: absolute;
+            margin-top: -42px;
+            cursor: pointer;
+        }
+        #one {
+            display: none;
+        }
+        #logj {
+            display: none;
+        }
+        #logq {
+            display: none;
+        }
+        #logw {
+            display: none;
+            flex-wrap: wrap;
+        }
+        .slider-main__button-read-mor.button.but {
+            display: block;
+        }
+        .repairs__kinds.swiper-wrapper {
+            z-index: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 107px;
+        }
+        .slider-main__button-read-mor.but {
+            font-family: 'Heebo', sans-serif;
+            padding-left: 18px;
+            padding-top: -29px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            border: none;
+            letter-spacing: -0.2px;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 8 11' width='8' height='11' class='aticle__text__button__svg'%3E%3Cpath clip-rule='evenodd' fill='%2341f6d7' fill-rule='evenodd' d='M 6.50008 0.500076 L 4.00008 3.00008 L 1.50008 0.500076 C 1.22393 0.223933 0.776218 0.223933 0.500076 0.500076 C 0.223933 0.776218 0.223933 1.22393 0.500075 1.50008 L 3.29297 4.29297 C 3.68349 4.68349 4.31666 4.68349 4.70718 4.29297 L 7.50008 1.50008 C 7.77622 1.22393 7.77622 0.776218 7.50008 0.500076 C 7.22393 0.223933 6.77622 0.223933 6.50008 0.500076 Z M 6.50008 6.50008 L 4.00008 9.00008 L 1.50008 6.50008 C 1.22393 6.22393 0.776218 6.22393 0.500076 6.50008 C 0.223933 6.77622 0.223933 7.22393 0.500075 7.50008 L 3.29297 10.293 C 3.68349 10.6835 4.31666 10.6835 4.70718 10.293 L 7.50008 7.50008 C 7.77622 7.22393 7.77622 6.77622 7.50008 6.50008 C 7.22393 6.22393 6.77622 6.22393 6.50008 6.50008 Z' /%3E%3Cpath xmlns='http://www.w3.org/2000/svg' clip-rule='evenodd' fill='%2341f6d7' fill-rule='evenodd' d='M 6.50008 0.500076 L 4.00008 3.00008 L 1.50008 0.500076 C 1.22393 0.223933 0.776218 0.223933 0.500076 0.500076 C 0.223933 0.776218 0.223933 1.22393 0.500075 1.50008 L 3.29297 4.29297 C 3.68349 4.68349 4.31666 4.68349 4.70718 4.29297 L 7.50008 1.50008 C 7.77622 1.22393 7.77622 0.776218 7.50008 0.500076 C 7.22393 0.223933 6.77622 0.223933 6.50008 0.500076 Z M 6.50008 6.50008 L 4.00008 9.00008 L 1.50008 6.50008 C 1.22393 6.22393 0.776218 6.22393 0.500076 6.50008 C 0.223933 6.77622 0.223933 7.22393 0.500075 7.50008 L 3.29297 10.293 C 3.68349 10.6835 4.31666 10.6835 4.70718 10.293 L 7.50008 7.50008 C 7.77622 7.22393 7.77622 6.77622 7.50008 6.50008 C 7.22393 6.22393 6.77622 6.22393 6.50008 6.50008 Z' /%3E%3C/svg%3E") no-repeat -1px;
+            color: $bla;
+            margin-left: 73px;
+            position: absolute;
+            margin-top: -71px;
+            cursor: pointer !important;
+        }
+        .swiper-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            display: flex;
+            transition-property: transform;
+            box-sizing: content-box;
+        }
+        .swiper-pagination {
+            visibility: hidden;
+        }
+    }
+    
+    @media (min-width: 1440px) {
+        .slider-main {
+            width: 1120px;
+            height: 100%;
+        }
+        .swiper-slide.slider-main__brand-section {
+            width: 240px;
+        }
+        .swiper-container {
+            width: 100%;
+        }
+        #one {
+            display: flex;
+        }
+        #logo {
+            flex-wrap: wrap;
+            display: none;
+        }
+        .slider-main__img-apple {
+            margin: 12px 182px 20px 16px;
+        }
+        .slider-main__img-samsung {
+            margin: 20px 110px 20px 16px;
+        }
+        .slider-main__img-bosch {
+            margin: 20px 100px 20px 16px;
+        }
+        .slider-main__img-view {
+            margin: 20px 98px 20px 16px;
+        }
+        .slider-main__img-hp {
+            margin: 10px 173px 20px 16px;
+        }
+        .slider-main__img-acer {
+            margin: 21px 131px 20px 16px;
+        }
+        .slider-main__img-sony {
+            margin: 21px 99px 20px 16px;
+        }
+        #logw {
+            display: flex;
+        }
+    }

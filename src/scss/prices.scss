@@ -1,0 +1,221 @@
+$grey:#7E7E82;
+$wl: #D9FFF5;
+$bac: #FFFFFF;
+$pinks: #ff3e79;
+$bla: #1B1C21;
+$w-b: #41F6D7;
+$ver: #EAEAEA;
+$hen: #B5B6BC;
+$irt: #41f6d7;
+$two: #F8F8F8;
+.prices {
+    position: relative;
+}
+
+.prices__title {
+    margin-bottom: 24px;
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+}
+
+.prise__heading {
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    color: $grey;
+    padding: 16px;
+}
+
+.prices__nav {
+    list-style: none;
+    display: flex;
+    position: absolute;
+}
+
+li.prices__services.swiper-slide {
+    background: $bac;
+    border-radius: 6px;
+    width: 260px !important;
+    margin-left: 25px;
+    height: 200px;
+}
+
+.swiper-container.swiper3 {
+    height: 250px;
+}
+
+.prices__price {
+    padding: 7px 16px 0px 16px;
+}
+
+.prices__price-two {
+    padding: 0px 16px 0px 16px;
+}
+
+.prices__price-three {
+    padding: 0px 0px 0px 16px;
+    position: relative;
+}
+
+.prices_price-title {
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: $grey;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+}
+
+.prices_price-p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: $bla;
+}
+
+.prise__button {
+    background: $pinks url("data:image/svg+xml,%3Csvg width='7' height='10' viewBox='0 0 7 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.8 4.99994L0.791554 2.229C0.3641 1.83529 0.361125 1.16138 0.785088 0.763917L0.920293 0.637162C1.30321 0.278177 1.89851 0.276333 2.28364 0.632939L6.93812 4.94264C6.9715 4.97355 6.9715 5.02633 6.93812 5.05723L2.34674 9.30851C1.92606 9.69803 1.27582 9.69601 0.857554 9.30389C0.394457 8.86974 0.397706 8.13363 0.864616 7.70358L3.8 4.99994Z' fill='white'/%3E%3C/svg%3E%0A") 87% 50% no-repeat;
+    border-radius: 16px;
+    padding: 4px 40px 4px 12px;
+    border: none;
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 125px;
+}
+
+.prise__a {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    color: $bac;
+    text-decoration: none;
+}
+
+.prices_price-title-one,
+.prices_price-title-two,
+.prices_price-title-three {
+    margin-bottom: -9px;
+}
+
+.prices-size {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .prices {
+        display: none;
+    }
+    .prices-size {
+        display: block;
+    }
+    .prices-size__menu {
+        display: flex;
+        font-family: 'Heebo', sans-serif;
+        font-size: 10px;
+        line-height: 16px;
+        color: $grey;
+        mix-blend-mode: normal;
+        opacity: 0.72;
+        margin-bottom: -15px;
+    }
+    .prices-size__h2 {
+        margin-left: 33px;
+    }
+    .prices-size__h2-two {
+        margin-left: 253px;
+    }
+    .prices-size__h2-three {
+        margin-left: 64px;
+    }
+    .prices-size__item {
+        background: $bac;
+        border-radius: 6px;
+        width: 720px;
+        height: 324px;
+        margin-left: 16px;
+        font-family: 'Heebo', sans-serif;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 26px;
+        letter-spacing: 0.2px;
+        color: $bla;
+    }
+    .prices-size__item-menu {
+        display: flex;
+        margin-left: 12px;
+        margin-top: 17px;
+        align-items: center;
+        position: relative;
+    }
+    .prise__button.button {
+        margin-top: 0px;
+        margin-left: 583px;
+    }
+    .prices-size__time {
+        position: absolute;
+        margin-left: 483px;
+    }
+    .prices-size__price {
+        position: absolute;
+        margin-left: 390px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .prices-size__item {
+        border-radius: 6px;
+        width: 1056px;
+        height: 324px;
+        margin-left: 24px;
+        font-family: 'Heebo', sans-serif;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 26px;
+        letter-spacing: 0.2px;
+        color: $bla;
+    }
+    .prise__button.button {
+        margin-top: 0px;
+        margin-left: 913px;
+    }
+    .prices-size__time {
+        position: absolute;
+        margin-left: 721px;
+    }
+    .prise__button.button {
+        margin-top: 0px;
+        margin-left: 900px;
+    }
+    .prices-size__item-menu {
+        display: flex;
+        margin-left: 24px;
+        margin-top: 17px;
+        align-items: center;
+        position: relative;
+    }
+    .prices-size__h2 {
+        margin-left: 50px;
+    }
+    .prices-size__h2-two {
+        margin-left: 369px;
+    }
+    .prices-size__h2-three {
+        margin-left: 193px;
+    }
+    .prices-size {
+        margin-left: 266px;
+    }
+    .prices__title {
+        margin-bottom: 24px;
+        background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+    }
+    .prices-size__price {
+        position: absolute;
+        margin-left: 500px;
+    }
+}
